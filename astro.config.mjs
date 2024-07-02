@@ -3,13 +3,11 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://alexeg.github.io",
-  base: "LaFranceAvecEbthal",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "La France Avec Ebthal",
       social: {
-        github: "https://github.com/withastro/starlight",
+        // github: "https://github.com/withastro/starlight",
       },
       sidebar: [
         {
@@ -17,11 +15,16 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Example Guide", link: "/guides/example/" },
+            { label: "Example Guide 2", link: "/guides/exampl/" },
           ],
         },
         {
           label: "Reference",
           autogenerate: { directory: "reference" },
+        },
+        {
+          label: "others",
+          autogenerate: { directory: "others" },
         },
       ],
     }),
