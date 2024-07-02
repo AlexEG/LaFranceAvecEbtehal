@@ -4,10 +4,10 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   site: process.env.CI ? "https://alexeg.github.io" : "http://localhost:4321",
-  base: "/LaFranceAvecEbthal",
+  base: "/LaFranceAvecEbtehal",
   integrations: [
     starlight({
-      title: "La France Avec Ebthal",
+      title: "La Françe Avec Ebtehal",
       social: {
         // github: "https://github.com/withastro/starlight",
       },
