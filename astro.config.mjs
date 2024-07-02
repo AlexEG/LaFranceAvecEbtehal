@@ -6,7 +6,7 @@ export default defineConfig({
   site: "https://alexeg.github.io",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "La France Avec Ebthal",
       social: {
         github: "https://github.com/withastro/starlight",
       },
