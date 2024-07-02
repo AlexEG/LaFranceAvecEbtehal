@@ -3,7 +3,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://alexeg.github.io",
+  site: "https://alexeg.github.io/LaFranceAvecEbthal/",
   integrations: [
     starlight({
       title: "La France Avec Ebthal",
